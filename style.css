@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #e0dede;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.top-header {
+  padding: 5px 15px;
+  background-color: #000;
+  color: #fff;
+}
+
+.main-header {
+  padding: 10px 0 10px 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+
+.main-header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-menu,
+.main-menu {
+  display: flex;
+}
+
+.top-menu li {
+  margin-right: 10px;
+}
+
+.main-menu li {
+  margin-right: 20px;
+}
