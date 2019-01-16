@@ -131,3 +131,20 @@ a {
 .single-index {
   width: 33%;
 }
+
+.categories {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 80%;
+}
+
+.category-row {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.single-category {
+  width: 33%;
+}
