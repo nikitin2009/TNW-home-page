@@ -72,3 +72,30 @@ a {
 .article-top {
   margin-bottom: 10px;
 }
+
+.latest-news {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+  
+}
+
+.latest-news-heading {
+  width: 100%;
+}
+.latest-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: green;
+}
+.col-3 {
+  width: 24%;
+
+  background-color: white;
+}
+
+.col-3 img {
+  max-width: 200px;
+}
