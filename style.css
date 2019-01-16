@@ -77,7 +77,7 @@ a {
   margin: 0 auto;
   width: 80%;
   max-width: 900px;
-  
+
 }
 
 .latest-news-heading {
@@ -92,10 +92,42 @@ a {
 }
 .col-3 {
   width: 24%;
-
+  flex: 1;
   background-color: white;
 }
 
 .col-3 img {
   max-width: 200px;
+}
+
+.index-co {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+}
+
+.index-co-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.index-co-heading {
+  width: 350px;
+}
+
+.index-co-top-links {
+  width: 350px;
+}
+
+.index-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.single-index {
+  width: 33%;
 }
