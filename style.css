@@ -87,13 +87,17 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  background-color: green;
+  margin-bottom: 15px;
 }
 .col-3 {
   width: 24%;
   flex: 1;
   background-color: white;
+  margin-right: 15px;
+}
+
+.col-3:last-child {
+  margin-right: 0;
 }
 
 .col-3 img {
@@ -104,6 +108,7 @@ a {
   margin: 0 auto;
   width: 80%;
   max-width: 900px;
+  margin-bottom: 30px;
 }
 
 .index-co-top {
@@ -129,7 +134,7 @@ a {
 }
 
 .single-index {
-  width: 33%;
+  background-color: #fff;
 }
 
 .categories {
