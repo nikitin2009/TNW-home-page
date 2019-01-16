@@ -47,3 +47,28 @@ a {
 .main-menu li {
   margin-right: 20px;
 }
+
+
+.top-section {
+  display: flex;
+  padding: 20px 10px;
+}
+
+.main-article {
+  flex-grow: 2;
+  background-color: #a5a3a3;
+  margin-right: 10px;
+}
+
+.other-articles {
+  flex-grow: 1;
+}
+
+.article-top,
+.article-bottom {
+  background-color: #a5a3a3;
+}
+
+.article-top {
+  margin-bottom: 10px;
+}
