@@ -137,7 +137,9 @@ a {
 
 .single-index {
   background-color: #fff;
-  max-width: 23%;
+  flex-basis: 23.33333333%;
+  max-width: 23.33333333%;
+
 }
 
 .categories {
@@ -234,7 +236,8 @@ footer .copy {
   }
 
   .single-index {
-    max-width: 33%;
+    flex-basis: 31.33333333%;
+    max-width: 31.33333333%;
   }
 
   .single-index:last-child{
