@@ -241,11 +241,20 @@ footer .copy {
     width: 100%;
     }
 
+  .col-3 {
+    flex-basis: 98%;
+    max-width: 98%;
+  }
 
+  .col-3 img {
+    width: 65px;
+    height: 65px;
+    float: left;
+  }
 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) and (min-width:769px) {
 
   .col-3 {
     flex-basis: 33.33333333%;
