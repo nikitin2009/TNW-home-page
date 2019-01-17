@@ -262,11 +262,13 @@ footer .copy {
     margin-right: 15px;
   }
 
-  .index-wrap {
+  .index-wrap,
+  .categories {
     display: block;
   }
 
-  .single-index {
+  .single-index,
+  .single-category {
     max-width: none;
   }
 
