@@ -263,12 +263,14 @@ footer .copy {
   }
 
   .index-wrap,
-  .categories {
+  .categories,
+  .deals-wrap {
     display: block;
   }
 
   .single-index,
-  .single-category {
+  .single-category,
+  .single-deal {
     max-width: none;
   }
 
