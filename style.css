@@ -147,12 +147,13 @@ a {
   max-width: 900px;
   width: 80%;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .single-category {
-  width: 30%;
-  margin-right: 5%;
+  flex-basis: 31.33333333%;
+  max-width: 31.33333333%;
   margin-bottom: 40px;
   background-color: #fff;
 }
@@ -242,6 +243,11 @@ footer .copy {
 
   .single-index:last-child{
     display: none;
+  }
+
+  .single-category {
+    flex-basis: 48%;
+    max-width: 48%;
   }
 
 }
