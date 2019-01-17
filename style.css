@@ -226,5 +226,12 @@ footer .copy {
 
 @media screen and (max-width:1024px) {
 
-  
+  .single-index {
+    max-width: 33%;
+  }
+
+  .single-index:last-child{
+    display: none;
+  }
+
 }
