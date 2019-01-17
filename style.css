@@ -171,12 +171,12 @@ a {
 .deals-wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .single-deal {
-  max-width: 23%;
-  margin-bottom: 20px;
+  flex-basis: 24%;
+  max-width: 24%;
+  margin: 0 .5% 20px;
 }
 
 .single-deal img {
@@ -249,5 +249,12 @@ footer .copy {
     flex-basis: 48%;
     max-width: 48%;
   }
+
+  .single-deal {
+    flex-basis: 32%;
+    max-width: 32%;
+    margin: .5%
+  }
+
 
 }
