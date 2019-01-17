@@ -256,7 +256,8 @@ footer .copy {
     margin-bottom: 15px;
   }
 
-  .col-3 img {
+  .col-3 img,
+  .single-deal img {
     width: 100px;
     height: 100px;
     margin-right: 15px;
@@ -272,6 +273,10 @@ footer .copy {
   .single-category,
   .single-deal {
     max-width: none;
+  }
+
+  .single-deal {
+    display: flex;
   }
 
 }
