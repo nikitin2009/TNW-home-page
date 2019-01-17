@@ -83,22 +83,22 @@ a {
 .latest-news-heading {
   width: 100%;
 }
-.latest-row {
+.latest-news-wrap {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15px;
+  flex-wrap: wrap;
+
 }
 .col-3 {
   width: 24%;
   flex: 1;
   background-color: white;
   margin-right: 15px;
+  margin-bottom: 15px;
 }
 
-.col-3:last-child {
-  margin-right: 0;
-}
+
 
 .col-3 img {
   max-width: 200px;
@@ -224,10 +224,7 @@ footer .copy {
 
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (max-width:1024px) {
 
-}
-
-@media screen and (min-width:1280px) {
-
+  
 }
