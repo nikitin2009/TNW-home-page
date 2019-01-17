@@ -247,7 +247,7 @@ footer .copy {
     display: flex;
   }
 
-  .content-main h4 {
+  /*.content-main*/ h4 {
     margin-top: 5px;
     margin-bottom: 15px;
   }
