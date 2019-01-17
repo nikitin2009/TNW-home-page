@@ -262,6 +262,14 @@ footer .copy {
     margin-right: 15px;
   }
 
+  .index-wrap {
+    display: block;
+  }
+
+  .single-index {
+    max-width: none;
+  }
+
 }
 
 @media screen and (max-width:1024px) and (min-width:769px) {
