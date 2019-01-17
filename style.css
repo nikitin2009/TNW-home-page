@@ -155,3 +155,20 @@ a {
 .single-category:nth-child(3n) {
   margin-right: 0;
 }
+
+.latest-deals {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-deal {
+  width: 24%;
+  margin-right: 1%;
+}
+
+.single-deal img {
+  max-height: 150px;
+}
