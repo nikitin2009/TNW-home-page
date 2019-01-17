@@ -227,6 +227,22 @@ footer .copy {
 
 @media screen and (max-width:768px) {
 
+  .top-section {
+    display: block;
+  }
+
+  .main-article {
+    margin-bottom: 10px;
+    width: 100%;
+
+    }
+
+  .other-articles {
+    width: 100%;
+    }
+
+
+
 }
 
 @media screen and (max-width:1024px) {
