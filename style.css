@@ -246,6 +246,7 @@ footer .copy {
   .content,
   .single-deal {
     display: flex;
+    align-items: flex-start;
   }
 
   /*.content-main*/ h4 {
