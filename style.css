@@ -30,14 +30,21 @@ a {
   box-shadow: 0 2px 5px rgba(0,0,0,.3);
 }
 
-.main-header nav {
+.main-header nav,
+.top-menu,
+.main-menu,
+.top-section,
+.latest-news-wrap,
+.col-3,
+.index-co-top,
+.index-wrap,
+.categories,
+.deals-wrap {
   display: flex;
-  justify-content: space-between;
 }
 
-.top-menu,
-.main-menu {
-  display: flex;
+.main-header nav {
+  justify-content: space-between;
 }
 
 .top-menu li {
@@ -50,7 +57,6 @@ a {
 
 
 .top-section {
-  display: flex;
   padding: 20px 10px;
 }
 
@@ -84,13 +90,11 @@ a {
   width: 100%;
 }
 .latest-news-wrap {
-  display: flex;
   flex-wrap: wrap;
   margin-left: -10px;
   margin-right: -10px;
 }
 .col-3 {
-  display: flex;
   flex-basis: 25%;
   max-width: 25%;
   padding-right: 10px;
@@ -115,7 +119,6 @@ a {
 
 .index-co-top {
   width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -130,7 +133,6 @@ a {
 
 .index-wrap {
   width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -146,7 +148,6 @@ a {
   margin: 0 auto;
   max-width: 900px;
   width: 80%;
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -169,7 +170,6 @@ a {
 }
 
 .deals-wrap {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -243,7 +243,8 @@ footer .copy {
     flex-direction: column;
   }
 
-  .content {
+  .content,
+  .single-deal {
     display: flex;
   }
 
@@ -269,10 +270,6 @@ footer .copy {
   .single-category,
   .single-deal {
     max-width: none;
-  }
-
-  .single-deal {
-    display: flex;
   }
 
 }
