@@ -1,6 +1,8 @@
 body {
   margin: 0;
   background-color: #e0dede;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  font-weight: 300;
 }
 
 ul {
@@ -15,6 +17,7 @@ ul {
 
 a {
   color: inherit;
+  font-family: Georgia;
   text-decoration: none;
 }
 
@@ -41,6 +44,15 @@ a {
 .categories,
 .deals-wrap {
   display: flex;
+}
+
+.main-article,
+.article-top,
+.article-bottom,
+.content-main,
+.single-index div,
+.single-category {
+  padding: 10px;
 }
 
 .main-header nav {
