@@ -350,6 +350,12 @@ footer .copy {
     width: 100%;
     }
 
+  .article-title,
+  .main-article .article-title {
+    font-size: 20px;
+    margin: 17px 0;
+  }
+
   .col-3 {
     flex-basis: 98%;
     max-width: 98%;
