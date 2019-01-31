@@ -147,6 +147,16 @@ a {
   width: 100%;
   display: flex;
   justify-content: flex-start;
+  color: darkgrey;
+  font-size: 12px;
+}
+
+.article-info a:hover {
+  color: white;
+}
+
+.article-info div {
+  margin-right: 15px;
 }
 
 .latest-news {
