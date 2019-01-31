@@ -461,8 +461,16 @@ footer .copy {
   .col-3 {
     flex-basis: 98%;
     max-width: 98%;
-    flex-direction: column;
+    justify-content: space-between;
   }
+.image-link {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+.main-content {
+  flex-basis: 75%;
+  max-width: 75%;
+}
 
   .content,
   .single-deal {
@@ -470,12 +478,12 @@ footer .copy {
     align-items: flex-start;
   }
 
-  /*.content-main*/ h4 {
+   h4 {
     margin-top: 0;
     margin-bottom: 15px;
   }
 
-  .col-3 img,
+
   .single-deal img {
     max-width: 170px;
     max-height: 120px;
