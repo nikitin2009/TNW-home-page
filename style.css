@@ -57,7 +57,6 @@ a {
 .article-top,
 .article-bottom,
 .content-main,
-.single-index div,
 .single-category {
   padding: 10px;
 }
@@ -193,24 +192,32 @@ a {
 }
 
 .index-co {
-  margin: 0 auto;
+  margin: 30px auto;
   width: 80%;
-  max-width: 900px;
-  margin-bottom: 30px;
+  max-width: 1150px;
 }
 
 .index-co-top {
   width: 100%;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
-.index-co-heading {
-  width: 350px;
-}
-
+.index-co-top a,
 .index-co-top-links {
-  width: 350px;
+  color: #f42;
+}
+
+.single-index-top {
+  background-color: #f42;
+  color: #fff;
+  padding: 10px 16px 10px 85px;
+  margin: 0;
+}
+
+.single-index-capital {
+  padding: 10px 16px 10px 85px;
+  background-color: rgba(255,68,34,.08);
 }
 
 .index-wrap {
