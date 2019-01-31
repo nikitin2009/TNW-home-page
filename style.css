@@ -200,7 +200,10 @@ a {
 }
 
 .col-3 a img {
-  max-width: 100%;
+  width: auto;
+  max-width: 270px;
+  height: auto;
+  max-height: 160px;
 }
 
 .col-3 h4,
