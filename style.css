@@ -37,6 +37,10 @@ a {
   display: none;
 }
 
+.nav-mob-toggle {
+  display: none;
+}
+
 .main-header nav,
 .top-menu,
 .main-menu,
@@ -279,6 +283,33 @@ footer .copy {
   .main-header .logo,
   .main-header .logo img {
     display: block;
+  }
+
+  .nav-mob-toggle {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 47px;
+    padding: 15px;
+  }
+
+  .nav-mob-toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    left: 14px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    background-color: #f42;
+  }
+
+  .nav-mob-toggle span:first-child {
+    transform: translateY(-6px);
+  }
+
+  .nav-mob-toggle span:last-child {
+    transform: translateY(6px);
   }
 
   .top-section {
