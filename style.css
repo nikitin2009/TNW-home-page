@@ -227,6 +227,20 @@ a {
   color: #f42;
 }
 
+.single-index {
+  position: relative;
+}
+
+.single-index img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
 .single-index-top {
   background-color: #f42;
   color: #fff;
@@ -235,8 +249,18 @@ a {
 }
 
 .single-index-capital {
-  padding: 10px 16px 10px 85px;
+  padding: 8px 16px 10px 85px;
   background-color: rgba(255,68,34,.08);
+}
+
+.index-value {
+  font-weight: 900;
+}
+
+.index-type {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #333;
 }
 
 .index-wrap {
@@ -250,6 +274,26 @@ a {
   flex-basis: 23.33333333%;
   max-width: 23.33333333%;
 
+}
+
+.single-index-content {
+  padding-top: 16px;
+  padding-bottom: 46px;
+  background-color: rgba(255,68,34,.03);
+  color: #333;
+  font-size: 12px;
+}
+
+.single-index-content div {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.single-index-content hr {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  border: none;
+  border-top: 1px solid rgba(255,68,34,.25);
 }
 
 .categories {
