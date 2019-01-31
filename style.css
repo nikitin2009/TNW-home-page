@@ -33,6 +33,10 @@ a {
   box-shadow: 0 2px 5px rgba(0,0,0,.3);
 }
 
+.main-header .logo {
+  display: none;
+}
+
 .main-header nav,
 .top-menu,
 .main-menu,
@@ -235,8 +239,20 @@ footer .copy {
 
 @media screen and (max-width:768px) {
 
-  .top-header {
+  .top-header,
+  .main-menu {
     display: none;
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .main-header .logo,
+  .main-header .logo img {
+    display: block;
   }
 
   .top-section {
