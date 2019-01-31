@@ -78,7 +78,7 @@ a {
 
 .main-article {
   flex-grow: 2;
-  background-color: #a5a3a3;
+  background-image: url(./img/main-section/main-image.jpg);
   margin-right: 10px;
 }
 
@@ -86,13 +86,20 @@ a {
   flex-grow: 1;
 }
 
+.main-article,
 .article-top,
 .article-bottom {
-  background-color: #a5a3a3;
+  background-position: center;
+  background-size: cover;
 }
 
 .article-top {
   margin-bottom: 10px;
+  background-image: url(./img/main-section/secondary-image-1.png);
+}
+
+.article-bottom {
+    background-image: url(./img/main-section/secondary-image-2.png);
 }
 
 .latest-news {
