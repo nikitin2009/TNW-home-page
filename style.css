@@ -381,7 +381,7 @@ a {
 .category-latest {
   position: relative;
   margin-top: 2px;
-  padding: 10px 100px 20px 10px;
+  padding: 10px 100px 10px 10px;
   background-color: rgba(255,68,34,.06);
   color: #f42;
   overflow: hidden;
@@ -431,7 +431,7 @@ a {
 
 .category-items li::before {
   content: '•';
-  color: #f24;
+  color: #f42;
 }
 
 
@@ -461,11 +461,6 @@ a {
   opacity: 1
 }
 
-.featured-anchor,
-.auhor {
-font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
-}
-
 .featured-anchor:hover {
   text-decoration: underline;
   text-decoration-color: grey;
@@ -483,12 +478,34 @@ font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helve
 
 .deals-wrap {
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .single-deal {
   flex-basis: 24%;
   max-width: 24%;
-  margin: 0 .5% 20px;
+  margin: 0 0 20px;
+}
+
+.content-main {
+  padding: 0;
+  font-size: 12px;
+}
+.content-main span {
+  padding: 0;
+  font-size: 8px;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.content-main h4 {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.content-main a:hover {
+  text-decoration: underline;
+  color: #f42;
 }
 
 .single-deal img {
