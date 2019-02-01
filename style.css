@@ -16,7 +16,6 @@ ul {
 
 a {
   color: inherit;
-  font-family: Georgia;
   text-decoration: none;
 }
 
@@ -237,11 +236,6 @@ a {
   background-image: url(./img/latest-news/8-rally.jpeg);
 }
 
-.col-3 a {
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
-    text-align: center;
-}
-
 .col-3 a:hover {
   color: #f42;
   text-decoration: underline;
@@ -390,6 +384,7 @@ a {
   padding: 10px 100px 20px 10px;
   background-color: rgba(255,68,34,.06);
   color: #f42;
+  overflow: hidden;
 }
 
 .category-latest img {
@@ -413,6 +408,32 @@ a {
   margin-bottom: 0;
   font-size: 13px;
 }
+
+.cat-latest-heading:hover {
+  text-decoration: underline;
+}
+
+
+.category-items li {
+  padding: 3px 0 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.category-items a {
+  color: grey;
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.category-items a:hover {
+  color: black;
+}
+
+.category-items li::before {
+  content: '•';
+  color: #f24;
+}
+
 
 .most-popular {
   text-transform: uppercase;
