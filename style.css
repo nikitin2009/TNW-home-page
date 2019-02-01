@@ -356,6 +356,12 @@ a {
   flex-wrap: wrap;
 }
 
+.category-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f42;
+}
+
 .single-category {
   flex-basis: 31.33333333%;
   max-width: 31.33333333%;
