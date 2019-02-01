@@ -191,13 +191,17 @@ a {
   flex-direction: column;
 }
 
-.col-3 a {
+.image-link {
   position: relative;
   display: block;
   width: 100%;
   max-height: 150px;
   overflow: hidden;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+.col-3 a {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    text-align: center;
 }
 
 .col-3 a:hover {
@@ -205,11 +209,16 @@ a {
   text-decoration: underline;
 }
 
-.col-3 a img {
+.image-link img {
   width: auto;
   max-width: 270px;
   height: auto;
   max-height: 160px;
+}
+
+.col-3 h4,
+.col-3 span {
+  width: 100%;
 }
 
 .col-3 h4 {
@@ -459,18 +468,40 @@ footer .copy {
   }
 
   .col-3 {
+    margin: 15px 0;
     flex-basis: 98%;
     max-width: 98%;
     justify-content: space-between;
+    position: relative;
   }
-.image-link {
-  flex-basis: 25%;
-  max-width: 25%;
-}
-.main-content {
-  flex-basis: 75%;
-  max-width: 75%;
-}
+
+  .image-link {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    max-width: 75px;
+    overflow: hidden;
+  }
+
+  .image-link img{
+    width: auto;
+
+    height: auto;
+
+
+  }
+
+  .col-3 h4,
+  .col-3 span {
+    margin-top: 0;
+    margin-left: 85px;
+  }
+
+  .main-content {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
 
   .content,
   .single-deal {
