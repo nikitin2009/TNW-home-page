@@ -515,6 +515,12 @@ a {
 footer {
   background-color: #131313;
   text-align: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+footer .light {
+  color: #fff;
 }
 
 .social-menu {
@@ -536,9 +542,9 @@ footer {
 
 .footer-menu {
   margin-bottom: 30px;
-  color: #fff;
   padding-right: 10px;
   padding-left: 10px;
+  text-transform: uppercase;
 }
 
 .footer-menu li {
@@ -550,7 +556,6 @@ footer {
 footer .copy {
   background-color: #000;
   padding: 40px 10px;
-  color: #fff;
 }
 
 @media screen and (max-width:768px) {
