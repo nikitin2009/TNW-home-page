@@ -195,8 +195,42 @@ a {
   position: relative;
   display: block;
   width: 100%;
-  max-height: 150px;
-  overflow: hidden;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+}
+
+.latest-1 {
+  background-image: url(./img/latest-news/1-bitcoin.jpg);
+}
+
+.latest-2 {
+  background-image: url(./img/latest-news/2-AI.png);
+}
+
+.latest-3 {
+  background-image: url(./img/latest-news/3-moon.png);
+}
+
+.latest-4 {
+  background-image: url(./img/latest-news/4-youtube.jpg);
+}
+
+.latest-5 {
+  background-image: url(./img/latest-news/5-iphone.jpg);
+}
+
+.latest-6 {
+  background-image: url(./img/latest-news/6-twitter.jpg);
+}
+
+.latest-7 {
+  background-image: url(./img/latest-news/7-new-york.jpg);
+}
+
+.latest-8 {
+  background-image: url(./img/latest-news/8-rally.jpeg);
 }
 
 .col-3 a {
