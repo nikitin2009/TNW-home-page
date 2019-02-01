@@ -105,7 +105,8 @@ a {
 
 .main-article,
 .article-top,
-.article-bottom {
+.article-bottom,
+.category-featured {
   padding-top: 140px;
   position: relative;
   display: flex;
