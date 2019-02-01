@@ -128,9 +128,20 @@ a {
   z-index: 9999;
 }
 
+.category-gradient {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-image: linear-gradient(rgb(100, 100, 100, 0.5), rgb(0, 0, 0, 1.0));
+  opacity: 0.65;
+  z-index: 9999;
+}
+
 .article-category,
 .article-title,
-.article-info {
+.article-info, {
   z-index: 999999;
 }
 
@@ -151,7 +162,7 @@ a {
   font-size: 12px;
 }
 
-.article-info a:hover {
+.article-info a:hover{
   color: white;
 }
 
@@ -356,6 +367,7 @@ a {
   flex-wrap: wrap;
 }
 
+
 .category-heading {
   font-size: 28px;
   font-weight: 700;
@@ -363,10 +375,50 @@ a {
 }
 
 .single-category {
-  flex-basis: 31.33333333%;
-  max-width: 31.33333333%;
+  flex-basis: 33.33333333%;
+  max-width: 33.33333333%;
   margin-bottom: 40px;
   background-color: #fff;
+}
+
+.single-category h3 {
+  margin: 2px 0;
+}
+
+.most-popular {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.featured-title {
+  font-size: 20px;
+}
+
+.author {
+  font-size: 12px;
+  color: white;
+  opacity: 0.6;
+}
+
+.featured-anchor,
+.category-featured div {
+  z-index: 99999;
+  padding: 0 12px 6px 12px;
+}
+
+.author a:hover {
+  opacity: 1
+}
+
+.featured-anchor,
+.auhor {
+font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+.featured-anchor:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
 }
 
 .single-category:nth-child(3n) {
