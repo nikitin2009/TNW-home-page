@@ -360,7 +360,7 @@ a {
 }
 
 .category-featured {
-  padding-top: 59%;
+  padding-top: 75%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -368,6 +368,13 @@ a {
   background-position: center;
   background-size: cover;
   color: white;
+}
+
+.category-featured-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .category-heading,
@@ -385,7 +392,7 @@ a {
 }
 
 .single-category h3 {
-  margin: 2px 0;
+  margin: 5px 0;
 }
 
 .category-latest {
@@ -462,7 +469,7 @@ a {
 }
 
 .featured-anchor,
-.category-featured div {
+.category-featured > div {
   z-index: 99999;
   padding: 0 12px 6px 12px;
 }
