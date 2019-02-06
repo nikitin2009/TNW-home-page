@@ -16,7 +16,6 @@ ul {
 
 a {
   color: inherit;
-  font-family: Georgia;
   text-decoration: none;
 }
 
@@ -128,6 +127,16 @@ a {
   z-index: 9999;
 }
 
+.category-gradient {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgb(100, 100, 100, 0.5), rgb(0, 0, 0, 1.0));
+  opacity: 0.65;
+  z-index: 9999;
+}
+
 .article-category,
 .article-title,
 .article-info {
@@ -151,7 +160,7 @@ a {
   font-size: 12px;
 }
 
-.article-info a:hover {
+.article-info a:hover{
   color: white;
 }
 
@@ -225,11 +234,6 @@ a {
 
 .latest-8 {
   background-image: url(./img/latest-news/8-rally.jpeg);
-}
-
-.col-3 a {
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
-    text-align: center;
 }
 
 .col-3 a:hover {
@@ -350,17 +354,120 @@ a {
 
 .categories {
   margin: 0 auto;
+<<<<<<< HEAD
   max-width: 1150px;
+=======
+  max-width: 1500px;
+>>>>>>> b519286973d2d185ebb03fb3f9049e1a88f1fcf7
   width: 80%;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
+
+.category-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f42;
+}
+
 .single-category {
-  flex-basis: 31.33333333%;
-  max-width: 31.33333333%;
+  flex-basis: 33.33333333%;
+  max-width: 33.33333333%;
   margin-bottom: 40px;
   background-color: #fff;
+}
+
+.single-category h3 {
+  margin: 2px 0;
+}
+
+.category-latest {
+  position: relative;
+  margin-top: 2px;
+  padding: 10px 100px 10px 10px;
+  background-color: rgba(255,68,34,.06);
+  color: #f42;
+  overflow: hidden;
+}
+
+.category-latest img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+
+.category-latest .latest {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.cat-latest-heading {
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.cat-latest-heading:hover {
+  text-decoration: underline;
+}
+
+
+.category-items li {
+  padding: 3px 0 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.category-items a {
+  color: grey;
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.category-items a:hover {
+  color: black;
+}
+
+.category-items li::before {
+  content: '•';
+  color: #f42;
+}
+
+
+.most-popular {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.featured-title {
+  font-size: 20px;
+}
+
+.author {
+  font-size: 12px;
+  color: white;
+  opacity: 0.6;
+}
+
+.featured-anchor,
+.category-featured div {
+  z-index: 99999;
+  padding: 0 12px 6px 12px;
+}
+
+.author a:hover {
+  opacity: 1
+}
+
+.featured-anchor:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
 }
 
 .single-category:nth-child(3n) {
@@ -370,17 +477,39 @@ a {
 .latest-deals {
   margin: 0 auto;
   width: 80%;
-  max-width: 900px;
+  max-width: 1150px;
 }
 
 .deals-wrap {
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .single-deal {
   flex-basis: 24%;
   max-width: 24%;
-  margin: 0 .5% 20px;
+  margin: 0 0 20px;
+}
+
+.content-main {
+  padding: 0;
+  font-size: 12px;
+}
+.content-main span {
+  padding: 0;
+  font-size: 8px;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.content-main h4 {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.content-main a:hover {
+  text-decoration: underline;
+  color: #f42;
 }
 
 .single-deal img {
@@ -390,6 +519,12 @@ a {
 footer {
   background-color: #131313;
   text-align: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+footer .light {
+  color: #fff;
 }
 
 .social-menu {
@@ -404,13 +539,16 @@ footer {
   border-radius: 50%;
   margin-right: 10px;
   margin-left: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
 }
 
 .footer-menu {
   margin-bottom: 30px;
-  color: #fff;
   padding-right: 10px;
   padding-left: 10px;
+  text-transform: uppercase;
 }
 
 .footer-menu li {
@@ -422,7 +560,6 @@ footer {
 footer .copy {
   background-color: #000;
   padding: 40px 10px;
-  color: #fff;
 }
 
 @media screen and (max-width:768px) {
