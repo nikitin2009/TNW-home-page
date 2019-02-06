@@ -18,7 +18,15 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 106px;
+  height: 80px;
+  background-image: url(./img/logo.png);
+  display: none;
+}
 .top-header {
   padding: 5px 15px;
   background-color: #000;
@@ -586,6 +594,12 @@ footer .copy {
 
 @media screen and (max-width:768px) {
 
+  .logo {
+    height: 48px;
+    background-image: url(./img/logo-small.png);
+    display: block;
+  }
+
   .top-header,
   .main-menu {
     display: none;
@@ -733,6 +747,15 @@ footer .copy {
 }
 
 @media screen and (max-width:1024px) and (min-width:769px) {
+
+  .top-header,
+  .main-header {
+    padding-left: 120px;
+  }
+
+  .logo {
+    display: block;
+  }
 
   .col-3 {
     flex-basis: 33.33333333%;
