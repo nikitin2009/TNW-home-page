@@ -624,6 +624,26 @@ footer .copy {
     margin: 17px 0;
   }
 
+  .index-co-heading {
+    margin-bottom: 10px;
+  }
+
+  .index-co-top {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 25px;
+  }
+
+  .index-co-top-links span {
+    display: none;
+  }
+  .index-co-top-links a {
+    display: block;
+    width: 100%;
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+
   .col-3 {
     margin-bottom: 45px;
     flex-basis: 98%;
@@ -692,6 +712,12 @@ footer .copy {
   .col-3 {
     flex-basis: 33.33333333%;
     max-width: 33.33333333%;
+  }
+
+  .index-co-top {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 25px;
   }
 
   .single-index {
