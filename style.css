@@ -378,10 +378,19 @@ a {
 }
 
 .category-heading,
-.latest-news-heading {
+.latest-news-heading,
+.latest-deals h2 {
   font-size: 28px;
   font-weight: 700;
   color: #f42;
+}
+
+.category-heading:hover,
+.latest-news-heading:hover,
+.latest-deals h2:hover,
+.index-co-heading a:hover {
+  color: black;
+  cursor: pointer;
 }
 
 .single-category {
