@@ -365,7 +365,8 @@ a {
 }
 
 
-.category-heading {
+.category-heading,
+.latest-news-heading {
   font-size: 28px;
   font-weight: 700;
   color: #f42;
