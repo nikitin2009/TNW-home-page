@@ -301,6 +301,9 @@ a {
 
 .single-index {
   position: relative;
+  background-color: #fff;
+  flex-basis: 23.33333333%;
+  max-width: 23.33333333%;
 }
 
 .single-index img {
@@ -339,13 +342,6 @@ a {
   width: 100%;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-.single-index {
-  background-color: #fff;
-  flex-basis: 23.33333333%;
-  max-width: 23.33333333%;
-
 }
 
 .single-index-content {
