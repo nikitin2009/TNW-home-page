@@ -39,10 +39,7 @@ a {
   box-shadow: 0 2px 5px rgba(0,0,0,.3);
 }
 
-.main-header .logo {
-  display: none;
-}
-
+.main-header .logo,
 .nav-mob-toggle {
   display: none;
 }
@@ -70,6 +67,15 @@ a {
 
 .main-header nav {
   justify-content: space-between;
+}
+
+.top-menu {
+  font-size: 11px;
+  color: lightgray;
+}
+
+.top-menu a:hover{
+  color: white;
 }
 
 .top-menu li {
@@ -607,6 +613,7 @@ footer .copy {
 
   .main-header {
     display: flex;
+    float: right;
     justify-content: space-between;
     padding: 0;
   }
