@@ -354,11 +354,7 @@ a {
 
 .categories {
   margin: 0 auto;
-<<<<<<< HEAD
   max-width: 1150px;
-=======
-  max-width: 1500px;
->>>>>>> b519286973d2d185ebb03fb3f9049e1a88f1fcf7
   width: 80%;
   justify-content: space-between;
   flex-wrap: wrap;
